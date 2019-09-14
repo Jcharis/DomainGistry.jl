@@ -10,5 +10,3 @@ julia:
   - 1.0
   - 0.6
 
-script:
-  - julia -e 'using Pkg;Pkg.clone(pwd());Pkg.build("DomainGistry");Pkg.test("DomainGistry"; coverage=true)'
